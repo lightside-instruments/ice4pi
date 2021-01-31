@@ -1,3 +1,9 @@
+ice4pi-spark-6x-sfp (1.2.1) buster; urgency=medium
+
+  * Initial release of a ice4pi mod adding 60 pin 2 mm through hole connector placed according to the spark v2 6x sfp+ low speed signals module interface
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Sun, 31 Jan 2021 01:30:52 +0100
+
 ice4pi (1.2) buster; urgency=medium
 
   * Schematic: Connected all remaining pins from the Rapberry Pi header to Top bank of ice40

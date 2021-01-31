@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ice4pi-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -902,186 +903,6 @@ $EndComp
 Wire Wire Line
 	9850 2750 9650 2750
 Connection ~ 9650 2750
-Text GLabel 2950 2350 0    50   Output ~ 0
-LED4
-Text GLabel 2950 2450 0    50   Output ~ 0
-LED3
-Text GLabel 2950 2550 0    50   Output ~ 0
-LED2
-Text GLabel 2950 2650 0    50   Output ~ 0
-LED1
-Text GLabel 2950 2750 0    50   Output ~ 0
-LED0
-$Comp
-L Device:LED D4
-U 1 1 5E2AFD5C
-P 5000 6000
-F 0 "D4" H 4991 6217 50  0000 C CNN
-F 1 "LED" H 4991 6126 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 5000 6000 50  0001 C CNN
-F 3 "~" H 5000 6000 50  0001 C CNN
-F 4 "SML-LX0603GW-TR" H 5000 6000 50  0001 C CNN "PN"
-	1    5000 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D3
-U 1 1 5E2B0000
-P 5000 6200
-F 0 "D3" H 4991 6417 50  0000 C CNN
-F 1 "LED" H 4991 6326 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 5000 6200 50  0001 C CNN
-F 3 "~" H 5000 6200 50  0001 C CNN
-F 4 "SML-LX0603GW-TR" H 5000 6200 50  0001 C CNN "PN"
-	1    5000 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D2
-U 1 1 5E2B00B9
-P 5000 6400
-F 0 "D2" H 4991 6617 50  0000 C CNN
-F 1 "LED" H 4991 6526 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 5000 6400 50  0001 C CNN
-F 3 "~" H 5000 6400 50  0001 C CNN
-F 4 "SML-LX0603GW-TR" H 5000 6400 50  0001 C CNN "PN"
-	1    5000 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D1
-U 1 1 5E2B0159
-P 5000 6600
-F 0 "D1" H 4991 6817 50  0000 C CNN
-F 1 "LED" H 4991 6726 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 5000 6600 50  0001 C CNN
-F 3 "~" H 5000 6600 50  0001 C CNN
-F 4 "SML-LX0603GW-TR" H 5000 6600 50  0001 C CNN "PN"
-	1    5000 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R14
-U 1 1 5E2B02DE
-P 4700 6750
-F 0 "R14" H 4770 6796 50  0000 L CNN
-F 1 "1K" H 4770 6705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4630 6750 50  0001 C CNN
-F 3 "~" H 4700 6750 50  0001 C CNN
-F 4 "ERJ-2GEJ102X " H 4700 6750 50  0001 C CNN "PN"
-	1    4700 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R13
-U 1 1 5E2B041C
-P 4550 6750
-F 0 "R13" H 4620 6796 50  0000 L CNN
-F 1 "1K" H 4620 6705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4480 6750 50  0001 C CNN
-F 3 "~" H 4550 6750 50  0001 C CNN
-F 4 "ERJ-2GEJ102X " H 4550 6750 50  0001 C CNN "PN"
-	1    4550 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R12
-U 1 1 5E2B04DD
-P 4400 6750
-F 0 "R12" H 4470 6796 50  0000 L CNN
-F 1 "1K" H 4470 6705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4330 6750 50  0001 C CNN
-F 3 "~" H 4400 6750 50  0001 C CNN
-F 4 "ERJ-2GEJ102X " H 4400 6750 50  0001 C CNN "PN"
-	1    4400 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 5E2B05E5
-P 4250 6750
-F 0 "R11" H 4320 6796 50  0000 L CNN
-F 1 "1K" H 4320 6705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4180 6750 50  0001 C CNN
-F 3 "~" H 4250 6750 50  0001 C CNN
-F 4 "ERJ-2GEJ102X " H 4250 6750 50  0001 C CNN "PN"
-	1    4250 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 6600 4850 6600
-Wire Wire Line
-	4850 6400 4550 6400
-Wire Wire Line
-	4550 6400 4550 6600
-Wire Wire Line
-	4850 6200 4400 6200
-Wire Wire Line
-	4400 6200 4400 6600
-Wire Wire Line
-	4850 6000 4250 6000
-Wire Wire Line
-	4250 6000 4250 6600
-$Comp
-L power:GND #PWR0127
-U 1 1 5E2B848B
-P 4250 6900
-F 0 "#PWR0127" H 4250 6650 50  0001 C CNN
-F 1 "GND" H 4255 6727 50  0000 C CNN
-F 2 "" H 4250 6900 50  0001 C CNN
-F 3 "" H 4250 6900 50  0001 C CNN
-	1    4250 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 6900 4550 6900
-Connection ~ 4250 6900
-Connection ~ 4400 6900
-Wire Wire Line
-	4400 6900 4250 6900
-Connection ~ 4550 6900
-Wire Wire Line
-	4550 6900 4400 6900
-Text GLabel 5150 6000 2    50   Input ~ 0
-LED3
-Text GLabel 5150 6200 2    50   Input ~ 0
-LED2
-Text GLabel 5150 6400 2    50   Input ~ 0
-LED1
-Text GLabel 5150 6600 2    50   Input ~ 0
-LED0
-$Comp
-L Device:LED D5
-U 1 1 5E2C9447
-P 5000 5800
-F 0 "D5" H 4991 6017 50  0000 C CNN
-F 1 "LED" H 4991 5926 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 5000 5800 50  0001 C CNB
-F 3 "~" H 5000 5800 50  0001 C CNN
-F 4 "SML-LX0603IW-TR" H 5000 5800 50  0001 C CNN "PN"
-	1    5000 5800
-	1    0    0    -1  
-$EndComp
-Text GLabel 5150 5800 2    50   Input ~ 0
-LED4
-$Comp
-L Device:R R10
-U 1 1 5E2D2FE4
-P 4100 6750
-F 0 "R10" H 4170 6796 50  0000 L CNN
-F 1 "1K" H 4170 6705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4030 6750 50  0001 C CNN
-F 3 "~" H 4100 6750 50  0001 C CNN
-F 4 "ERJ-2GEJ102X " H 4100 6750 50  0001 C CNN "PN"
-	1    4100 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 6900 4100 6900
-Wire Wire Line
-	4100 6600 4100 5800
-Wire Wire Line
-	4100 5800 4850 5800
 $Comp
 L Device:R R18
 U 1 1 5E2DB2F7
@@ -1112,22 +933,6 @@ Wire Wire Line
 Wire Wire Line
 	8450 3050 8450 3150
 Connection ~ 8450 3150
-Text GLabel 2950 1350 0    50   BiDi ~ 0
-PIO1_02
-Text GLabel 2950 1450 0    50   BiDi ~ 0
-PIO1_03
-Text GLabel 2950 1550 0    50   BiDi ~ 0
-PIO1_04
-Text GLabel 2950 1650 0    50   BiDi ~ 0
-PIO1_05
-Text GLabel 2950 1750 0    50   BiDi ~ 0
-PIO1_06
-Text GLabel 2950 1850 0    50   BiDi ~ 0
-PIO1_07
-Text GLabel 2950 1950 0    50   BiDi ~ 0
-PIO1_08
-Text GLabel 2950 2050 0    50   BiDi ~ 0
-PIO1_09
 Text GLabel 950  1150 0    50   BiDi ~ 0
 PIO0_02
 Text GLabel 950  1250 0    50   BiDi ~ 0
@@ -1395,94 +1200,6 @@ F 3 "" H 6450 3900 50  0001 C CNN
 	1    6450 3900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J1
-U 1 1 5E30D74F
-P 1450 6650
-F 0 "J1" H 1500 7067 50  0000 C CNN
-F 1 "Pmod 2x6" H 1500 6976 50  0000 C CNN
-F 2 "ice4pi:PinSocket_2x06_P2.54mm_Vertical_1to6_7to12" H 1450 6650 50  0001 C CNN
-F 3 "~" H 1450 6650 50  0001 C CNN
-F 4 "SSW-106-01-T-D" H 1450 6650 50  0001 C CNN "PN"
-	1    1450 6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 6950 1250 7050
-Wire Wire Line
-	1250 7050 1750 7050
-Wire Wire Line
-	1750 7050 1750 6950
-$Comp
-L Device:C_Small C2
-U 1 1 5E314690
-P 1950 7050
-F 0 "C2" H 2042 7096 50  0000 L CNN
-F 1 "0.1uF" H 2042 7005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1950 7050 50  0001 C CNN
-F 3 "~" H 1950 7050 50  0001 C CNN
-F 4 "885012205037" H 1950 7050 50  0001 C CNN "PN"
-	1    1950 7050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 6850 1150 6850
-Wire Wire Line
-	1150 6850 1150 7200
-Wire Wire Line
-	1150 7200 1800 7200
-Wire Wire Line
-	1800 7200 1800 6850
-Wire Wire Line
-	1800 6850 1750 6850
-Wire Wire Line
-	1800 7200 1950 7200
-Wire Wire Line
-	1950 7200 1950 7150
-Connection ~ 1800 7200
-$Comp
-L power:GND #PWR0138
-U 1 1 5E3221B4
-P 1950 7200
-F 0 "#PWR0138" H 1950 6950 50  0001 C CNN
-F 1 "GND" H 1955 7027 50  0000 C CNN
-F 2 "" H 1950 7200 50  0001 C CNN
-F 3 "" H 1950 7200 50  0001 C CNN
-	1    1950 7200
-	1    0    0    -1  
-$EndComp
-Connection ~ 1950 7200
-Wire Wire Line
-	1750 6950 1950 6950
-Connection ~ 1750 6950
-$Comp
-L power:+3.3V #PWR0139
-U 1 1 5E32924D
-P 1950 6950
-F 0 "#PWR0139" H 1950 6800 50  0001 C CNN
-F 1 "+3.3V" H 1965 7123 50  0000 C CNN
-F 2 "" H 1950 6950 50  0001 C CNN
-F 3 "" H 1950 6950 50  0001 C CNN
-	1    1950 6950
-	1    0    0    -1  
-$EndComp
-Connection ~ 1950 6950
-Text GLabel 1250 6450 0    50   BiDi ~ 0
-PIO1_02
-Text GLabel 1250 6550 0    50   BiDi ~ 0
-PIO1_03
-Text GLabel 1250 6650 0    50   BiDi ~ 0
-PIO1_04
-Text GLabel 1250 6750 0    50   BiDi ~ 0
-PIO1_05
-Text GLabel 1750 6450 2    50   BiDi ~ 0
-PIO1_06
-Text GLabel 1750 6550 2    50   BiDi ~ 0
-PIO1_07
-Text GLabel 1750 6650 2    50   BiDi ~ 0
-PIO1_08
-Text GLabel 1750 6750 2    50   BiDi ~ 0
-PIO1_09
 Wire Wire Line
 	6550 3900 6450 3900
 Connection ~ 6450 3900
@@ -1584,107 +1301,8 @@ Wire Wire Line
 Connection ~ 6850 6500
 Wire Wire Line
 	6850 6500 6750 6500
-$Comp
-L ice4pi:TFDU4101-TR3 U5
-U 1 1 5E3647BC
-P 10250 5750
-F 0 "U5" H 10578 5526 50  0000 L CNN
-F 1 "TFDU4101-TR3" H 10578 5435 50  0000 L CNN
-F 2 "ice4pi:TFDU4101-TR3" H 10150 5950 50  0001 C CNN
-F 3 "" H 10150 5950 50  0001 C CNN
-F 4 "TFDU4101-TR3" H 10250 5750 50  0001 C CNN "PN"
-	1    10250 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R21
-U 1 1 5E364A05
-P 9700 5650
-F 0 "R21" V 9493 5650 50  0000 C CNN
-F 1 "47" V 9584 5650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9630 5650 50  0001 C CNN
-F 3 "~" H 9700 5650 50  0001 C CNN
-F 4 "ERJ-2GEJ470X" V 9700 5650 50  0001 C CNN "PN"
-	1    9700 5650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R22
-U 1 1 5E364B52
-P 9700 5750
-F 0 "R22" V 9493 5750 50  0000 C CNN
-F 1 "47" V 9584 5750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9630 5750 50  0001 C CNN
-F 3 "~" H 9700 5750 50  0001 C CNN
-F 4 "ERJ-2GEJ470X" V 9700 5750 50  0001 C CNN "PN"
-	1    9700 5750
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR0143
-U 1 1 5E364CC8
-P 9550 5650
-F 0 "#PWR0143" H 9550 5500 50  0001 C CNN
-F 1 "+3.3V" H 9565 5823 50  0000 C CNN
-F 2 "" H 9550 5650 50  0001 C CNN
-F 3 "" H 9550 5650 50  0001 C CNN
-	1    9550 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 5750 9550 5650
-Connection ~ 9550 5650
-Wire Wire Line
-	10050 5650 9850 5650
-$Comp
-L Device:C_Small C32
-U 1 1 5E37D22C
-P 9850 5850
-F 0 "C32" H 9942 5896 50  0000 L CNN
-F 1 "0.1uF" H 9942 5805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9850 5850 50  0001 C CNN
-F 3 "~" H 9850 5850 50  0001 C CNN
-F 4 "885012205037" H 9850 5850 50  0001 C CNN "PN"
-	1    9850 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9850 5750 10050 5750
-Connection ~ 9850 5750
-Wire Wire Line
-	9850 5950 9950 5950
-Wire Wire Line
-	9950 5950 9950 5900
-Wire Wire Line
-	9950 5900 10050 5900
-$Comp
-L Device:C_Small C31
-U 1 1 5E38DF5C
-P 9550 5850
-F 0 "C31" H 9642 5896 50  0000 L CNN
-F 1 "4.7uF" H 9642 5805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9550 5850 50  0001 C CNN
-F 3 "~" H 9550 5850 50  0001 C CNN
-F 4 "C1005X5R0J475M050BC" H 9550 5850 50  0001 C CNN "PN"
-	1    9550 5850
-	1    0    0    -1  
-$EndComp
-Connection ~ 9550 5750
-Wire Wire Line
-	9550 5950 9850 5950
-Connection ~ 9850 5950
-Text GLabel 10050 6200 0    50   Input ~ 0
-IR_TXD
-Text GLabel 10050 6400 0    50   Input ~ 0
-IR_SD
-Text GLabel 10050 6300 0    50   Output ~ 0
-IR_RXD
-Text GLabel 2950 3150 0    50   Output ~ 0
-IR_TXD
-Text GLabel 2950 3350 0    50   Output ~ 0
-IR_SD
-Text GLabel 2950 3250 0    50   Input ~ 0
-IR_RXD
+Text GLabel 2950 3350 0    50   BiDi ~ 0
+P60
 NoConn ~ 1100 5300
 Wire Wire Line
 	1100 5150 900  5150
@@ -1824,4 +1442,253 @@ Text GLabel 7450 4600 2    50   BiDi ~ 0
 PIO0_20
 Text GLabel 950  3050 0    50   BiDi ~ 0
 PIO0_21
+$Comp
+L Connector_Generic:Conn_02x30_Odd_Even J3
+U 1 1 6014648E
+P 3150 6700
+F 0 "J3" H 3200 8317 50  0000 C CNN
+F 1 "Conn_02x30_Odd_Even" H 3200 8226 50  0000 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_2x30_P2.00mm_Vertical" H 3150 6700 50  0001 C CNN
+F 3 "~" H 3150 6700 50  0001 C CNN
+	1    3150 6700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1750 6900 3    50   Input ~ 0
+P1
+Text GLabel 4650 6400 1    50   BiDi ~ 0
+P60
+Text GLabel 4650 6900 3    50   BiDi ~ 0
+P59
+Text GLabel 2950 3250 0    50   BiDi ~ 0
+P59
+Text GLabel 4550 6900 3    50   BiDi ~ 0
+P57
+Text GLabel 4450 6900 3    50   BiDi ~ 0
+P55
+Text GLabel 4350 6900 3    50   BiDi ~ 0
+P53
+Text GLabel 4250 6900 3    50   BiDi ~ 0
+P51
+Text GLabel 4150 6900 3    50   BiDi ~ 0
+P49
+Text GLabel 4050 6900 3    50   BiDi ~ 0
+P47
+Text GLabel 3950 6900 3    50   BiDi ~ 0
+P45
+Text GLabel 3850 6900 3    50   BiDi ~ 0
+P43
+Text GLabel 3750 6900 3    50   BiDi ~ 0
+P41
+Text GLabel 3650 6900 3    50   BiDi ~ 0
+P39
+Text GLabel 3550 6900 3    50   BiDi ~ 0
+P37
+Text GLabel 3450 6900 3    50   BiDi ~ 0
+P35
+Text GLabel 3350 6900 3    50   BiDi ~ 0
+P33
+Text GLabel 3250 6900 3    50   BiDi ~ 0
+P31
+Text GLabel 3150 6900 3    50   BiDi ~ 0
+P29
+Text GLabel 3050 6900 3    50   BiDi ~ 0
+P27
+Text GLabel 2950 6900 3    50   BiDi ~ 0
+P25
+Text GLabel 2850 6900 3    50   BiDi ~ 0
+P23
+Text GLabel 2750 6900 3    50   BiDi ~ 0
+P21
+Text GLabel 2650 6900 3    50   BiDi ~ 0
+P19
+Text GLabel 2550 6900 3    50   BiDi ~ 0
+P17
+Text GLabel 2450 6900 3    50   BiDi ~ 0
+P15
+Text GLabel 2350 6900 3    50   BiDi ~ 0
+P13
+Text GLabel 2250 6900 3    50   BiDi ~ 0
+P11
+Text GLabel 2150 6900 3    50   BiDi ~ 0
+P9
+Text GLabel 2050 6900 3    50   BiDi ~ 0
+P7
+Text GLabel 1950 6900 3    50   BiDi ~ 0
+P5
+Text GLabel 1850 6900 3    50   BiDi ~ 0
+P3
+Text GLabel 1750 6400 1    50   BiDi ~ 0
+P2
+Text GLabel 1850 6400 1    50   BiDi ~ 0
+P4
+Text GLabel 1950 6400 1    50   BiDi ~ 0
+P6
+Text GLabel 2050 6400 1    50   BiDi ~ 0
+P8
+Text GLabel 2150 6400 1    50   BiDi ~ 0
+P10
+Text GLabel 2250 6400 1    50   BiDi ~ 0
+P12
+Text GLabel 2350 6400 1    50   BiDi ~ 0
+P14
+Text GLabel 2450 6400 1    50   BiDi ~ 0
+P16
+Text GLabel 2550 6400 1    50   BiDi ~ 0
+P18
+Text GLabel 2650 6400 1    50   BiDi ~ 0
+P20
+Text GLabel 2750 6400 1    50   BiDi ~ 0
+P22
+Text GLabel 2850 6400 1    50   BiDi ~ 0
+P24
+Text GLabel 2950 6400 1    50   BiDi ~ 0
+P26
+Text GLabel 3050 6400 1    50   BiDi ~ 0
+P28
+Text GLabel 3150 6400 1    50   BiDi ~ 0
+P30
+Text GLabel 3250 6400 1    50   BiDi ~ 0
+P32
+Text GLabel 3350 6400 1    50   BiDi ~ 0
+P34
+Text GLabel 3450 6400 1    50   BiDi ~ 0
+P36
+Text GLabel 3550 6400 1    50   BiDi ~ 0
+P38
+Text GLabel 3650 6400 1    50   BiDi ~ 0
+P40
+Text GLabel 3750 6400 1    50   BiDi ~ 0
+P42
+Text GLabel 3850 6400 1    50   BiDi ~ 0
+P44
+Text GLabel 3950 6400 1    50   BiDi ~ 0
+P46
+Text GLabel 4050 6400 1    50   BiDi ~ 0
+P48
+Text GLabel 4150 6400 1    50   BiDi ~ 0
+P50
+Text GLabel 4250 6400 1    50   BiDi ~ 0
+P52
+Text GLabel 4350 6400 1    50   BiDi ~ 0
+P54
+Text GLabel 4450 6400 1    50   BiDi ~ 0
+P56
+Text GLabel 4550 6400 1    50   BiDi ~ 0
+P58
+Text GLabel 2950 3150 0    50   BiDi ~ 0
+P58
+Text GLabel 2950 3050 0    50   BiDi ~ 0
+P57
+Text GLabel 2950 2950 0    50   BiDi ~ 0
+P56
+Text GLabel 2950 2850 0    50   BiDi ~ 0
+P55
+Text GLabel 2950 2750 0    50   BiDi ~ 0
+P54
+Text GLabel 2950 2650 0    50   BiDi ~ 0
+P53
+Text GLabel 2950 2550 0    50   BiDi ~ 0
+P52
+Text GLabel 2950 2450 0    50   BiDi ~ 0
+P51
+Text GLabel 2950 2350 0    50   BiDi ~ 0
+P50
+Text GLabel 2950 2250 0    50   BiDi ~ 0
+P49
+Text GLabel 2950 2150 0    50   BiDi ~ 0
+P48
+Text GLabel 2950 2050 0    50   BiDi ~ 0
+P47
+Text GLabel 2950 1950 0    50   BiDi ~ 0
+P46
+Text GLabel 2950 1850 0    50   BiDi ~ 0
+P45
+Text GLabel 2950 1750 0    50   BiDi ~ 0
+P44
+Text GLabel 2950 1650 0    50   BiDi ~ 0
+P43
+Text GLabel 2950 1550 0    50   BiDi ~ 0
+P42
+Text GLabel 2950 1450 0    50   BiDi ~ 0
+P41
+Text GLabel 2950 1350 0    50   BiDi ~ 0
+P40
+Text GLabel 2950 1250 0    50   BiDi ~ 0
+P39
+Text GLabel 2950 1150 0    50   BiDi ~ 0
+P38
+Text GLabel 2950 1050 0    50   BiDi ~ 0
+P37
+Text GLabel 2950 950  0    50   BiDi ~ 0
+P36
+Text GLabel 4650 3250 0    50   BiDi ~ 0
+P35
+Text GLabel 4650 3150 0    50   BiDi ~ 0
+P34
+Text GLabel 4650 3050 0    50   BiDi ~ 0
+P33
+Text GLabel 4650 2950 0    50   BiDi ~ 0
+P32
+Text GLabel 4650 2850 0    50   BiDi ~ 0
+P31
+Text GLabel 4650 2750 0    50   BiDi ~ 0
+P30
+Text GLabel 4650 2650 0    50   BiDi ~ 0
+P29
+Text GLabel 4650 2550 0    50   BiDi ~ 0
+P28
+Text GLabel 4650 2450 0    50   BiDi ~ 0
+P27
+Text GLabel 4650 2350 0    50   BiDi ~ 0
+P26
+Text GLabel 4650 2250 0    50   BiDi ~ 0
+P25
+Text GLabel 4650 2150 0    50   BiDi ~ 0
+P24
+Text GLabel 4650 2050 0    50   BiDi ~ 0
+P23
+Text GLabel 4650 1950 0    50   BiDi ~ 0
+P22
+Text GLabel 4650 1850 0    50   BiDi ~ 0
+P21
+Text GLabel 4650 1750 0    50   BiDi ~ 0
+P20
+Text GLabel 4650 1650 0    50   BiDi ~ 0
+P19
+Text GLabel 4650 1550 0    50   BiDi ~ 0
+P18
+Text GLabel 4650 1450 0    50   BiDi ~ 0
+P17
+Text GLabel 4650 1350 0    50   BiDi ~ 0
+P16
+Text GLabel 6600 3450 0    50   BiDi ~ 0
+P15
+Text GLabel 6600 3350 0    50   BiDi ~ 0
+P14
+Text GLabel 6600 3250 0    50   BiDi ~ 0
+P13
+Text GLabel 6600 3150 0    50   BiDi ~ 0
+P12
+Text GLabel 6600 3050 0    50   BiDi ~ 0
+P11
+Text GLabel 6600 2950 0    50   BiDi ~ 0
+P10
+Text GLabel 6600 2850 0    50   BiDi ~ 0
+P9
+Text GLabel 6600 2750 0    50   BiDi ~ 0
+P8
+Text GLabel 6600 2650 0    50   BiDi ~ 0
+P7
+Text GLabel 6600 2550 0    50   BiDi ~ 0
+P6
+Text GLabel 6600 2450 0    50   BiDi ~ 0
+P5
+Text GLabel 6600 2250 0    50   BiDi ~ 0
+P4
+Text GLabel 6600 2150 0    50   BiDi ~ 0
+P3
+Text GLabel 6600 2050 0    50   BiDi ~ 0
+P2
+Text GLabel 6600 1950 0    50   BiDi ~ 0
+P1
 $EndSCHEMATC
