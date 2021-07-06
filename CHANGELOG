@@ -1,3 +1,9 @@
+ice4ultra96 (1.2-1) buster; urgency=medium
+
+  * Added 1.8 V ultra96 hat to 3.3 V raspberry pi connector interafce board based on ice4pi
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Mon, 05 Jul 2021 16:53:08 +0200
+
 ice4pi-spark-6x-sfp (1.2.1) buster; urgency=medium
 
   * Initial release of a ice4pi mod adding 60 pin 2 mm through hole connector placed according to the spark v2 6x sfp+ low speed signals module interface
