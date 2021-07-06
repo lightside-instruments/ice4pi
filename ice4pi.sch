@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "ice4ultra96 ver. 1.2"
-Date "2021-07-05"
-Rev "1"
+Date "2021-07-06"
+Rev "2"
 Comp "Lightside Instruments AS"
 Comment1 ""
 Comment2 ""
@@ -1419,7 +1419,7 @@ U 1 1 60DEA601
 P 12900 5450
 F 0 "J1" H 12950 6567 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 12950 6476 50  0000 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_2x20_P2.00mm_Vertical" H 12900 5450 50  0001 C CNN
+F 2 "ice4pi:Socket_Strip_SMD_2x20_Pitch2mm" H 12900 5450 50  0001 C CNN
 F 3 "~" H 12900 5450 50  0001 C CNN
 	1    12900 5450
 	1    0    0    -1  
@@ -2011,6 +2011,169 @@ F 1 "+5VP" V 12715 6478 50  0000 L CNN
 F 2 "" H 12700 6350 50  0001 C CNN
 F 3 "" H 12700 6350 50  0001 C CNN
 	1    12700 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J4
+U 1 1 60E4B510
+P 12900 2800
+F 0 "J4" H 12950 3917 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 12950 3826 50  0000 C CNN
+F 2 "ice4pi:Pin_Header_SMD_2x20_Pitch2mm" H 12900 2800 50  0001 C CNN
+F 3 "~" H 12900 2800 50  0001 C CNN
+	1    12900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0160
+U 1 1 60E4B517
+P 12700 1900
+F 0 "#PWR0160" H 12700 1650 50  0001 C CNN
+F 1 "GND" H 12705 1727 50  0000 C CNN
+F 2 "" H 12700 1900 50  0001 C CNN
+F 3 "" H 12700 1900 50  0001 C CNN
+	1    12700 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0161
+U 1 1 60E4B51D
+P 13200 1900
+F 0 "#PWR0161" H 13200 1650 50  0001 C CNN
+F 1 "GND" H 13205 1727 50  0000 C CNN
+F 2 "" H 13200 1900 50  0001 C CNN
+F 3 "" H 13200 1900 50  0001 C CNN
+	1    13200 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0162
+U 1 1 60E4B523
+P 13200 3800
+F 0 "#PWR0162" H 13200 3550 50  0001 C CNN
+F 1 "GND" H 13205 3627 50  0000 C CNN
+F 2 "" H 13200 3800 50  0001 C CNN
+F 3 "" H 13200 3800 50  0001 C CNN
+	1    13200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0163
+U 1 1 60E4B529
+P 12700 3800
+F 0 "#PWR0163" H 12700 3550 50  0001 C CNN
+F 1 "GND" H 12705 3627 50  0000 C CNN
+F 2 "" H 12700 3800 50  0001 C CNN
+F 3 "" H 12700 3800 50  0001 C CNN
+	1    12700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR0164
+U 1 1 60E4B52F
+P 12700 3600
+F 0 "#PWR0164" H 12700 3450 50  0001 C CNN
+F 1 "+1V8" V 12715 3728 50  0000 L CNN
+F 2 "" H 12700 3600 50  0001 C CNN
+F 3 "" H 12700 3600 50  0001 C CNN
+	1    12700 3600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 13200 2300 2    50   Input ~ 0
+iCE_MISO
+Text GLabel 13200 2400 2    50   Input ~ 0
+iCE_SS_B
+Text GLabel 13200 2200 2    50   Output ~ 0
+iCE_SCK
+Text GLabel 13200 2500 2    50   Output ~ 0
+iCE_MOSI
+Text GLabel 13200 3000 2    50   Output ~ 0
+iCE_CREST
+Text GLabel 13200 3200 2    50   Input ~ 0
+iCE_CDONE
+Text GLabel 12700 2000 0    50   BiDi ~ 0
+P60
+Text GLabel 13200 2000 2    50   BiDi ~ 0
+P59
+Text GLabel 12700 2100 0    50   BiDi ~ 0
+P58
+Text GLabel 12700 2200 0    50   BiDi ~ 0
+P56
+Text GLabel 12700 2300 0    50   BiDi ~ 0
+P55
+Text GLabel 12700 2400 0    50   BiDi ~ 0
+P54
+Text GLabel 12700 2500 0    50   BiDi ~ 0
+P53
+Text GLabel 12700 2600 0    50   BiDi ~ 0
+P52
+Text GLabel 12700 2700 0    50   BiDi ~ 0
+P50
+Text GLabel 12700 2800 0    50   BiDi ~ 0
+P48
+Text GLabel 12700 2900 0    50   BiDi ~ 0
+P46
+Text GLabel 12700 3000 0    50   BiDi ~ 0
+P44
+Text GLabel 12700 3100 0    50   BiDi ~ 0
+P43
+Text GLabel 12700 3200 0    50   BiDi ~ 0
+P41
+Text GLabel 12700 3300 0    50   BiDi ~ 0
+P40
+Text GLabel 12700 3400 0    50   BiDi ~ 0
+P38
+Text GLabel 12700 3500 0    50   BiDi ~ 0
+P36
+Text GLabel 13200 2100 2    50   BiDi ~ 0
+P57
+Text GLabel 13200 2600 2    50   BiDi ~ 0
+P51
+Text GLabel 13200 2700 2    50   BiDi ~ 0
+P49
+Text GLabel 13200 2800 2    50   BiDi ~ 0
+P47
+Text GLabel 13200 2900 2    50   BiDi ~ 0
+P45
+Text GLabel 13200 3100 2    50   BiDi ~ 0
+P42
+Text GLabel 13200 3300 2    50   BiDi ~ 0
+P39
+Text GLabel 13200 3400 2    50   BiDi ~ 0
+P37
+Text GLabel 13200 3500 2    50   BiDi ~ 0
+P35
+$Comp
+L power:+VDC #PWR0165
+U 1 1 60E4B555
+P 13200 3600
+F 0 "#PWR0165" H 13200 3500 50  0001 C CNN
+F 1 "+VDC" V 13200 3830 50  0000 L CNN
+F 2 "" H 13200 3600 50  0001 C CNN
+F 3 "" H 13200 3600 50  0001 C CNN
+	1    13200 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+VDC #PWR0166
+U 1 1 60E4B55B
+P 13200 3700
+F 0 "#PWR0166" H 13200 3600 50  0001 C CNN
+F 1 "+VDC" V 13200 3930 50  0000 L CNN
+F 2 "" H 13200 3700 50  0001 C CNN
+F 3 "" H 13200 3700 50  0001 C CNN
+	1    13200 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5VP #PWR0167
+U 1 1 60E4B561
+P 12700 3700
+F 0 "#PWR0167" H 12700 3550 50  0001 C CNN
+F 1 "+5VP" V 12715 3828 50  0000 L CNN
+F 2 "" H 12700 3700 50  0001 C CNN
+F 3 "" H 12700 3700 50  0001 C CNN
+	1    12700 3700
 	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

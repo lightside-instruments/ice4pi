@@ -1,3 +1,9 @@
+ice4ultra96 (1.2-2) buster; urgency=medium
+
+  * Replaced through-hole 96boards connector with two side SMD connectors
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Tue, 06 Jul 2021 11:43:04 +0200
+
 ice4ultra96 (1.2-1) buster; urgency=medium
 
   * Added 1.8 V ultra96 hat to 3.3 V raspberry pi connector interafce board based on ice4pi
