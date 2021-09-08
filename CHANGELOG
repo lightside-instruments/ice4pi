@@ -1,3 +1,9 @@
+clockinput4ultra96 (1.0-1) buster; urgency=medium
+
+  * Initial clock input shield 2x SMA coaxial interfaces for 1 PPS and 10 MHz input signals
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Wed, 08 Sep 2021 22:22:26 +0200
+
 gpsclock4ultra96 (1.0-1) buster; urgency=medium
 
   * Initial GPS clock extension board for Ultra96 with 1 sec PPS and 10 MHz output signals

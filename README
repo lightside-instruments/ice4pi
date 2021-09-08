@@ -1,14 +1,13 @@
-The gpsclock4ultra96 is an open hardware extension module for Ultra96
-or other 96boards CE compatible devices. It uses the u-blox LEA-M8T
-module.
+The clockinput4ultra96 is an open hardware extension module for Ultra96
+or other 96boards CE compatible devices. It 
 
-In addition to a 1 sec PPS signal which is available on almost all
-GNSS boards it has 10 MHz clock signal for frequency synchronization.
+It has 2x SMA coaxial connectors for 1 sec PPS signal and 10 MHz clock
+signal for frequency synchronization. Both are 50 Ohm terminated and
+designed for 3.3V TTL signals.
 
 Published by Lightside Instruments AS.
 
-The initial release gpsclock4ultra96-1.0 includes schematic and PCB
-design files for KiCAD.
+The design includes schematic and PCB design files for KiCAD.
 
 The project is published by Lightside Instruments AS
 under TAPR Open Hardware License. Read the LICENSE file
