@@ -1,3 +1,12 @@
+ice4pi (2.0) buster; urgency=medium
+
+  * Removed the IrDA transciever module and its passive components
+  * Reordered the Raspberry Pi connector symbol pins in the schematic to match the physical placement
+  * Aligned the PMOD connector to the mounting holes
+  * Replaced track based power nets with zones
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Mon, 07 Feb 2022 20:47:38 +0100
+
 ice4pi (1.2) buster; urgency=medium
 
   * Schematic: Connected all remaining pins from the Rapberry Pi header to Top bank of ice40
