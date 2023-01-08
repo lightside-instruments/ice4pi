@@ -1,3 +1,9 @@
+ice4pi (2.1) jammy; urgency=medium
+
+  * Upgraded to kicad 6
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Sun, 08 Jan 2023 00:52:34 +0100
+
 ice4pi (2.0) buster; urgency=medium
 
   * Removed the IrDA transciever module and its passive components
