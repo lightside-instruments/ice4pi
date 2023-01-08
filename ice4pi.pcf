@@ -1,0 +1,67 @@
+# 5 LEDs  (identical to iCE40HX-1K iCEstick)
+set_io D1 99
+set_io D2 98
+set_io D3 97
+set_io D4 96
+set_io D5 95
+
+# 12MHz clock (identical to iCE40HX-1K iCEstick)
+set_io clk 21
+
+# pmod IO
+set_io P1 78
+set_io P2 79
+set_io P3 80
+set_io P4 81
+set_io P5 87
+set_io P6 88
+set_io P7 90
+set_io P8 91
+
+
+#ice4pi Raspberry Pi 40-pin connector
+#      R1  3V3
+set_io R3  139
+set_io R5  141
+set_io R7  138
+#      R9  GND
+set_io R11 137
+set_io R13 135
+set_io R15 129
+#      R17 3V3
+set_io R19 67 #iCE_MOSI
+
+set_io R21 68 #iCE_MISO
+set_io R23 70 #iCE_SCK
+#      R25 GND
+set_io R27 121
+set_io R29 120
+set_io R31 118
+set_io R33 117
+set_io R35 115
+set_io R37 113
+#      R39 GND
+
+#      R2   5V
+#      R4   5V
+#      R6  GND
+set_io R8    9 # RS232_Rx_TTL
+set_io R10   8 # RS232_Tx_TTL
+set_io R12 136
+#      R14 GND
+set_io R16 134
+set_io R18  66 # iCE_CREST
+
+#      R20 GND
+set_io R22  65 # iCE_DONE 
+set_io R24  71 # iCE_SS_B
+set_io R26 128
+set_io R28 122
+#      R30 GND
+set_io R32 119
+#      R34 GND
+set_io R36 116
+set_io R38 114
+set_io R40 112
+
+

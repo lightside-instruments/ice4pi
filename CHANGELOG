@@ -1,3 +1,13 @@
+ice4pi (2.2) jammy; urgency=medium
+
+  * Replaced U3 - the dual channel LDO voltage regulator with a single channel 1.2V fixed
+  * Added drill origin / alternative axis center
+  * Added ice4pi.pch with all IOs defined
+  * Reduced minimum clearance to from 0.254 to 0.2 mm
+  * Updated example/README and added workaround for flashrom failing after first use
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Sun, 08 Jan 2023 23:32:05 +0100
+
 ice4pi (2.1) jammy; urgency=medium
 
   * Upgraded to kicad 6
