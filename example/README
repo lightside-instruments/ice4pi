@@ -2,18 +2,11 @@ Assuming you are running on a Raspberry Pi 2-4 or Zero (tested with bullseye):
 
 1. Install all necessary packages to synthesize rot.v and build bit image (rot.bin) for the ice4pi:
 
- sudo apt-get install yosys fpga-icestorm arachne-pnr
+ sudo apt-get install yosys fpga-icestorm arachne-pnr flashrom
  make
 
 2. Make sure your Pi has SPI enabled (e.g. use raspi-config)
 
-3. Building and installing the flashrom tool
-
- git clone https://github.com/lightside-instruments/flashrom.git
- cd flashrom
- make CONFIG_ENABLE_LIBPCI_PROGRAMMERS=no CONFIG_ENABLE_LIBUSB0_PROGRAMMERS=no CONFIG_ENABLE_LIBUSB1_PROGRAMMERS=no install
- cd ..
-
-4. Load the rot.bin file to the shield:
+3. Load the rot.bin file to the shield:
 
  make load
