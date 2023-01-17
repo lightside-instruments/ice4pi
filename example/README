@@ -16,4 +16,4 @@ Assuming you are running on a Raspberry Pi 2-4 or Zero (tested with bullseye):
 
 4. Load the rot.bin file to the shield:
 
- make load
+ sudo make load
