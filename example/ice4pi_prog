@@ -1,5 +1,5 @@
 #!/bin/bash
-echo 24 > /sys/class/gpio/export
+echo 24 > /sys/class/gpio/export || true
 echo out > /sys/class/gpio/gpio24/direction
 echo 1 >/sys/class/gpio/gpio24/value
 sleep 1
@@ -10,6 +10,5 @@ dd if=${1} conv=notrunc of=image
 flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=20000 -w image
 #workaround first time fails after initial programming
 flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=20000 -w image
-echo in > /sys/class/gpio/gpio24/direction
-echo 24 > /sys/class/gpio/unexport
+echo 1 >/sys/class/gpio/gpio24/value
 

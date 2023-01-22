@@ -1,3 +1,11 @@
+ice4pi (2.3) jammy; urgency=medium
+
+  * Fixed critical bug in circuit design connected EN pin of the LDO voltage regulator to +5V
+  * example/README updated to install flashrom using apt and not compile it from source
+  * BOM: Changed the 2x20 Raspberry Pi connector to one with long 10 mm stacking pins instead
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Sun, 22 Jan 2023 03:36:38 +0100
+
 ice4pi (2.2) jammy; urgency=medium
 
   * Replaced U3 - the dual channel LDO voltage regulator with a single channel 1.2V fixed
