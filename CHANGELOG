@@ -1,3 +1,9 @@
+ice4pi-spark-6x-sfp (1.2.1-1) buster; urgency=medium
+
+  * Example added i2c slave core and mapped led and SFP control signals to i2c registers
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Wed, 08 Feb 2023 21:31:52 +0100
+
 ice4pi-spark-6x-sfp (1.2.1) buster; urgency=medium
 
   * Initial release of a ice4pi mod adding 60 pin 2 mm through hole connector placed according to the spark v2 6x sfp+ low speed signals module interface

@@ -1,0 +1,91 @@
+# For the spark-v2 60 pin low-speed SFP and LED interface signals ice4pi based add-on board.
+
+#pi side
+
+set_io clk 21
+set_io i2c_sda 139
+set_io i2c_scl 141
+
+
+#60 pin side
+
+#pin1
+set_io led_tx[0] 11
+set_io led_tx[1] 29
+set_io led_tx[2] 43
+set_io led_tx[3] 60
+set_io led_tx[4] 79
+set_io led_tx[5] 96
+
+#pin2
+set_io sfp_rs1[0] 12
+set_io sfp_rs1[1] 31
+set_io sfp_rs1[2] 44
+set_io sfp_rs1[3] 61
+set_io sfp_rs1[4] 80
+set_io sfp_rs1[5] 97
+
+#pin3
+set_io sfp_rx_los[0] 19
+set_io sfp_rx_los[1] 32
+set_io sfp_rx_los[2] 45
+set_io sfp_rx_los[3] 62
+set_io sfp_rx_los[4] 81
+set_io sfp_rx_los[5] 98
+
+#pin4
+set_io sfp_rs0[0] 20
+set_io sfp_rs0[1] 33
+set_io sfp_rs0[2] 47
+set_io sfp_rs0[3] 63
+set_io sfp_rs0[4] 87
+set_io sfp_rs0[5] 99
+
+#pin5
+set_io sfp_mod_abs[0] 22
+set_io sfp_mod_abs[1] 34
+set_io sfp_mod_abs[2] 48
+set_io sfp_mod_abs[3] 64
+set_io sfp_mod_abs[4] 88
+set_io sfp_mod_abs[5] 101
+
+#pin6
+set_io sfp_scl[0] 23
+set_io sfp_scl[1] 37
+set_io sfp_scl[2] 49
+set_io sfp_scl[3] 73
+set_io sfp_scl[4] 90
+set_io sfp_scl[5] 102
+
+#pin7
+set_io sfp_sda[0] 24
+set_io sfp_sda[1] 38
+set_io sfp_sda[2] 50
+set_io sfp_sda[3] 74
+set_io sfp_sda[4] 91
+set_io sfp_sda[5] 104
+
+#pin8
+set_io sfp_tx_disable[0] 25
+set_io sfp_tx_disable[1] 39
+set_io sfp_tx_disable[2] 52
+set_io sfp_tx_disable[3] 75
+set_io sfp_tx_disable[4] 93
+set_io sfp_tx_disable[5] 105
+
+#pin9
+set_io sfp_tx_fault[0] 26
+set_io sfp_tx_fault[1] 41
+set_io sfp_tx_fault[2] 56
+set_io sfp_tx_fault[3] 76
+set_io sfp_tx_fault[4] 94
+set_io sfp_tx_fault[5] 106
+
+#pin10
+set_io led_rx[0] 28
+set_io led_rx[1] 42
+set_io led_rx[2] 58
+set_io led_rx[3] 78
+set_io led_rx[4] 95
+set_io led_rx[5] 107
+

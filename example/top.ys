@@ -1,0 +1,8 @@
+read_verilog top.v
+read_verilog rot.v
+#read_verilog I2Cslave.v
+read_verilog lib/hw/opencores/i2cslave/rtl/i2cSlaveTop.v
+read_verilog lib/hw/opencores/i2cslave/rtl/i2cSlave.v
+read_verilog lib/hw/opencores/i2cslave/rtl/serialInterface.v
+read_verilog lib/hw/opencores/i2cslave/rtl/registerInterface.v
+synth_ice40 -top top -blif top.blif
