@@ -1,3 +1,9 @@
+ice4ultra96 (1.2-3) bullseye; urgency=medium
+
+  * Example update with passthrough SPI functionality and working bittream programming script
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Wed, 08 Feb 2023 19:50:48 +0100
+
 ice4ultra96 (1.2-2) buster; urgency=medium
 
   * Replaced through-hole 96boards connector with two side SMD connectors

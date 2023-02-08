@@ -1,0 +1,25 @@
+set_io clk 21
+
+#96boards connector 40 pin connector
+
+#GND                        #1
+#...
+set_io mio36_ps_gpio1_0  87 #23
+
+#GND                         #2
+#...
+set_io mio38_spi0_sclk    70 #8
+set_io mio42_spi0_miso    68
+set_io mio43_spi0_mosi    67
+#...
+set_io mio40_ps_gpio1_3   80 #26
+set_io mio44_ps_gpio1_4   79 #27
+
+
+#raspberry pi 40 pin connector
+set_io -pullup yes pi_ce0   10 #24
+set_io -pullup yes pi_miso0  4 #21
+set_io -pullup yes pi_mosi0  1 #19
+set_io -pullup yes pi_sclk0  7 #23
+set_io -pullup yes pi_gpio24 2 #18
+

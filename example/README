@@ -1,18 +1,12 @@
-To install all necessary packages and synthesize and program ice4pi:
+This example builds an image that allows access to SPI device on the Raspberry Pi bus transparently through /dev/spidev-0.1
 
- sudo apt-get install yosys fpga-icestorm arachne-pnr
+Assuming you are running as root on a Ultra96 ver.2 with chrooted Debian (tested with bullseye):
+
+1. Install all necessary packages to synthesize top.v and build bit image (top.bin):
+
+ apt-get install yosys fpga-icestorm arachne-pnr flashrom
  make
 
-1. Make sure your Pi has SPI enabled
+2. Load the top.bin file to the shield:
 
-2. There is a problem in arachne-pnr reporting bogus dependency conflict that can be worked around:
-
- apt-get source arachne-pnr
- cd arachne-pnr-0.1+20180909git840bdfd-1.1/
- dpkg-buildpackage -us -uc -j2
- sudo dpkg -i ../arachne*.deb
-
-3. Building and installing the flashrom tool
- git clone https://www.flashrom.org/git/flashrom.git
- cd flashrom
- make CONFIG_ENABLE_LIBPCI_PROGRAMMERS=no CONFIG_ENABLE_LIBUSB0_PROGRAMMERS=no CONFIG_ENABLE_LIBUSB1_PROGRAMMERS=no install
+ sudo make load

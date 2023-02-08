@@ -1,11 +1,13 @@
 
-rot.bin: rot.v rot.pcf
-	yosys -q -p "synth_ice40 -blif rot.blif" rot.v
-	arachne-pnr -p rot.pcf rot.blif -o rot.txt
-	icebox_explain rot.txt > rot.ex
-	icepack rot.txt rot.bin
-	./ice4pi_prog rot.bin
-#	iceprog rot.bin
+top.bin: top.v top.pcf
+	yosys -q -p "synth_ice40 -blif top.blif" top.v
+	arachne-pnr -p top.pcf top.blif -o top.txt
+	icebox_explain top.txt > top.ex
+	icepack top.txt top.bin
+
+load: top.bin
+	./ice4pi_prog top.bin
+#	iceprog top.bin
 
 clean:
-	rm -f rot.blif rot.txt rot.ex rot.bin
+	rm -f top.blif top.txt top.ex top.bin
