@@ -1,3 +1,10 @@
+ice4pi (2.4) jammy; urgency=medium
+
+  * pcb: Restored logo and locked it
+  * pcb: Updated 3D model field for the 2x20 connector now with longer 11 mm pins
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Wed, 15 Feb 2023 10:21:52 +0100
+
 ice4pi (2.3) jammy; urgency=medium
 
   * Fixed critical bug in circuit design connected EN pin of the LDO voltage regulator to +5V

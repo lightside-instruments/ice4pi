@@ -394,12 +394,12 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
-      "idf": "",
+      "gencad": "ice4pi.cad",
+      "idf": "ice4pi.emn",
       "netlist": "ice4pi.net",
-      "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "specctra_dsn": "ice4pi.dsn",
+      "step": "ice4pi.step",
+      "vrml": "ice4pi.wrl"
     },
     "page_layout_descr_file": ""
   },
