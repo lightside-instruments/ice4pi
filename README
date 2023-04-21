@@ -1,10 +1,9 @@
-The gpib4pi project is open hardware design of a Raspbery Pi
-extension board with GPIB interface using only GPIOs.
+The ethernet4pizero project is open hardware design of a Raspbery Pi
+shield that adds Ethernet over SPI connectivity with the ENC28J60 IC.
 
 The project includes schematics and PCB
 design files for KiCAD. The board can be used with
-the linux-gpib software tools and the gpib_bitbang.ko
-driver.
+the dtoverlay=enc28j60 option added to /boot/config.txt.
 
 The project is published by Lightside Instruments AS
 under TAPR Open Hardware License. Read the LICENSE file
