@@ -1,5 +1,5 @@
 Reference,Quantity,Identifier,footprint,Value,Tolerance,Voltage,Current,Power,PN
-"C1, C2, C5, C6, C7, C8, ",6,,Capacitor_SMD:C_0402_1005Metric,100 nF,,,,,885012205037
+"C1, C2, C5, C6, C7, ",5,,Capacitor_SMD:C_0402_1005Metric,100 nF,,,,,885012205037
 "C3, ",1,,Capacitor_SMD:C_0402_1005Metric,0.01uF,,,,,885012205012
 "C4, ",1,,Capacitor_SMD:C_0402_1005Metric,10uF,,,,,ZRB15XR61A106ME01D
 "J1, ",1,,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,Conn_02x03,,,,,TSW-103-23-F-D
@@ -12,6 +12,6 @@ Reference,Quantity,Identifier,footprint,Value,Tolerance,Voltage,Current,Power,PN
 "R6, R7, ",2,,Resistor_SMD:R_0402_1005Metric,1K,,,,,ERJ-2GEJ102X 
 "R8, ",1,,Capacitor_SMD:C_0402_1005Metric,10K,,,,,ERJ-2GEJ103X
 "R9, ",1,,Resistor_SMD:R_0402_1005Metric,5.1K,,,,,ERJ-2RKF5101X
-"R10, ",1,,Resistor_SMD:R_0402_1005Metric,2.32K,,,,,ERJ-2RKF2321X
-"U1, ",1,,Package_SO:SSOP-28_5.3x10.2mm_P0.65mm,ENC28J60x-SS,,,,,ENC28J60x-SS
-"U2, ",1,,Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm,DSC1001DE1-025.0000,,,,,DSC1001DE1-025.0000
+"R10, R11, ",2,,Resistor_SMD:R_0402_1005Metric,200,,,,,ERJ-2GEJ201X 
+"U1, ",1,,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,SN74LV4T125,,,,,SN74LV4T125
+"U2, U3, ",2,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,SN65HVD11HD,,,,,SN65HVD11HD

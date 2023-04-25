@@ -1,9 +1,10 @@
-The ethernet4pizero project is open hardware design of a Raspbery Pi
-shield that adds Ethernet over SPI connectivity with the ENC28J60 IC.
+The ethernet4pizero-direct-spi project is open hardware design of a Raspbery Pi
+shield that adds Ethernet over SPI connectivity with differential drivers
+connected directly to the MOSI and MISO pins of the Raspberry Pi header.
+Thus it enables a software implementation to transmit and receive 10BASE-T data.
 
 The project includes schematics and PCB
-design files for KiCAD. The board can be used with
-the dtoverlay=enc28j60 option added to /boot/config.txt.
+design files for KiCAD.
 
 The project is published by Lightside Instruments AS
 under TAPR Open Hardware License. Read the LICENSE file

@@ -1,5 +1,5 @@
-ethernet4pizero (1.0) jammy; urgency=medium
+ethernet4pizero-direct-spi (1.0) jammy; urgency=medium
 
   * Initial release
 
- -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Sat, 22 Apr 2023 01:11:12 +0200
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Tue, 25 Apr 2023 13:24:45 +0200
