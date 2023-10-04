@@ -1,51 +1,11 @@
+clockinput4ultra96 (1.1) jammy; urgency=medium
+
+  * Upgraded to KiCad 6
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Wed, 04 Oct 2023 12:57:58 +0200
+
 clockinput4ultra96 (1.0-1) buster; urgency=medium
 
   * Initial clock input shield 2x SMA coaxial interfaces for 1 PPS and 10 MHz input signals
 
  -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Wed, 08 Sep 2021 22:22:26 +0200
-
-gpsclock4ultra96 (1.0-1) buster; urgency=medium
-
-  * Initial GPS clock extension board for Ultra96 with 1 sec PPS and 10 MHz output signals
-
- -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Wed, 08 Sep 2021 13:40:13 +0200
-
-ice4ultra96 (1.2-2) buster; urgency=medium
-
-  * Replaced through-hole 96boards connector with two side SMD connectors
-
- -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Tue, 06 Jul 2021 11:43:04 +0200
-
-ice4ultra96 (1.2-1) buster; urgency=medium
-
-  * Added 1.8 V ultra96 hat to 3.3 V raspberry pi connector interafce board based on ice4pi
-
- -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Mon, 05 Jul 2021 16:53:08 +0200
-
-ice4pi-spark-6x-sfp (1.2.1) buster; urgency=medium
-
-  * Initial release of a ice4pi mod adding 60 pin 2 mm through hole connector placed according to the spark v2 6x sfp+ low speed signals module interface
-
- -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Sun, 31 Jan 2021 01:30:52 +0100
-
-ice4pi (1.2) buster; urgency=medium
-
-  * Schematic: Connected all remaining pins from the Rapberry Pi header to Top bank of ice40
-
- -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Thu, 28 Jan 2021 20:12:31 +0100
-
-ice4pi (1.1) buster; urgency=medium
-
-  * Schematic: Fixed footprint bugs
-  * Layout: Added direction indicator for component footprint
-  * Layout: Flipped the 2x20 Pi Hat connector to the Back layer and replaced the header footprint with socket
-  * Layout: Removed unnecessary track
-  * Added example installing all necessary Debian packages and synthesizing and loading example code
-
- -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Fri, 14 Feb 2020 02:10:13 +0100
-
-ice4pi (1.0) buster; urgency=medium
-
-  * Initial version
-
- -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Tue, 28 Jan 2020 01:33:13 +0100

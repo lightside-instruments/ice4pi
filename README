@@ -1,5 +1,5 @@
 The clockinput4ultra96 is an open hardware extension module for Ultra96
-or other 96boards CE compatible devices. It 
+or other 96boards CE compatible devices.
 
 It has 2x SMA coaxial connectors for 1 sec PPS signal and 10 MHz clock
 signal for frequency synchronization. Both are 50 Ohm terminated and
