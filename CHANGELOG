@@ -1,3 +1,9 @@
+gpsclock4ultra96 (1.1) jammy; urgency=medium
+
+  * * Upgraded to KiCad 6
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Sat, 07 Oct 2023 14:09:04 +0200
+
 gpsclock4ultra96 (1.0-1) buster; urgency=medium
 
   * Initial GPS clock extension board for Ultra96 with 1 sec PPS and 10 MHz output signals
