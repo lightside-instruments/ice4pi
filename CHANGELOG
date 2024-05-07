@@ -1,3 +1,10 @@
+ice4pi (2.4.2) bookworm; urgency=medium
+
+  * Fixed bug introduced in previous version using GPIO23(PIN16) instead of GPIO24(PIN18)
+  * Replaced deprecated /sysfs gpio interface with gpiod gpioset and gpioget commands
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Tue, 07 May 2024 15:43:40 +0200
+
 ice4pi (2.4.1) bookworm; urgency=medium
 
   * Since in Pi 5 the GPIO /sysfs numbers are different added check auto selection
