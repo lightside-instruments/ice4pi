@@ -1,3 +1,10 @@
+ice4pi-spark-6x-sfp (1.2.1-2) bookworm; urgency=medium
+
+  * Corrected a mirror swap of the header pin definitions int top.pcf
+  * Added logic to detect module presence (blue led on), light present (green led on)
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Sun, 21 Jul 2024 02:34:50 +0200
+
 ice4pi-spark-6x-sfp (1.2.1-1) buster; urgency=medium
 
   * Example added i2c slave core and mapped led and SFP control signals to i2c registers
