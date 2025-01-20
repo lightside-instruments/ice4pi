@@ -1,3 +1,9 @@
+ice4pi-signal-integrity (2.4.3-1) bookworm; urgency=medium
+
+  * Added acquisition waveform of the SPI bus signals during loading of the image from the SPI flash
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Mon, 20 Jan 2025 23:24:37 +0100
+
 ice4pi (2.4.3) bookworm; urgency=medium
 
   * Added "dtparam spi=off" disables spidev driver and releases clk allowing ice40 to load

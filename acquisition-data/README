@@ -1,0 +1,3 @@
+loading.xml - acquisition data of the SPI bus (creset,clk etc.) interface 1M samples at 100MHz triggered during the loading of the binary image from the SPI flash.
+
+loading.png - plot of selected sample range of the 4 channels
