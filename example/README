@@ -1,3 +1,7 @@
+Simple example turning leds on and off on the FPGA hat.  The leds
+are blinking in a circle, three leds should be on while one get
+turned off in a clockwise rotation.
+
 Assuming you are running on a Raspberry Pi 2-4 or Zero (tested with bullseye):
 
 1. Install all necessary packages to synthesize rot.v and build bit image (rot.bin) for the ice4pi:
