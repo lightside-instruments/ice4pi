@@ -1,3 +1,9 @@
+ice4pi (2.4.5) noble; urgency=medium
+
+  * Example: Restored ice4pi_prog executable permissions removed by mistake in the previous commit
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Wed, 25 Feb 2026 16:03:12 +0100
+
 ice4pi (2.4.4) noble; urgency=medium
 
   * Example: Update addressing removed gpiofind tool from the gpiod package
