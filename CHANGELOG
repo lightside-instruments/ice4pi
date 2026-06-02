@@ -1,3 +1,9 @@
+ice4pi (2.4.6) UNRELEASED; urgency=medium
+
+  * Updated to KiCAD 9
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Tue, 02 Jun 2026 13:28:36 +0200
+
 ice4pi (2.4.5) noble; urgency=medium
 
   * Example: Restored ice4pi_prog executable permissions removed by mistake in the previous commit
