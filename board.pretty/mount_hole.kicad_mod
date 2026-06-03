@@ -1,4 +1,4 @@
-(module ice4pi:mount_hole locked (layer F.Cu) (tedit 55217C7B)
+(module board:mount_hole locked (layer F.Cu) (tedit 55217C7B)
   (descr "Mounting hole, 2,7mm")
   (fp_text reference "" (at 0 -4.0005) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))

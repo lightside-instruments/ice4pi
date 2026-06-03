@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ice4pi.kicad_pro",
+    "filename": "board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -523,15 +523,15 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "ice4pi.cad",
-      "idf": "ice4pi.emn",
-      "netlist": "ice4pi.net",
+      "gencad": "board.cad",
+      "idf": "board.emn",
+      "netlist": "board.net",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "ice4pi.dsn",
-      "step": "ice4pi.step",
+      "specctra_dsn": "board.dsn",
+      "step": "board.step",
       "svg": "",
-      "vrml": "ice4pi.wrl"
+      "vrml": "board.wrl"
     },
     "page_layout_descr_file": ""
   },
